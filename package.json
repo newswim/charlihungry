@@ -24,6 +24,12 @@
   "keywords": [
     "gatsby"
   ],
+  "prettier": {
+    "printWidth": 100,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "semi": false
+  },
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -35,6 +41,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "prettier-eslint": "^8.8.1"
   }
 }
